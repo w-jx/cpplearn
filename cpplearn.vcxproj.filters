@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="源文件">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="头文件">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
@@ -13,19 +9,342 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="资源文件\stl算法">
+      <UniqueIdentifier>{e7cd576e-ab38-46f3-bfe4-97ed8d09d5c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\C语言语法学习">
+      <UniqueIdentifier>{4811ea4c-79eb-4009-b5dd-22a4169082c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\boost学习">
+      <UniqueIdentifier>{6ca5c9e2-6636-4a9d-a64d-c0a73ec1f53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\leetbook">
+      <UniqueIdentifier>{fa1fe884-84b4-4c49-9921-4aa86d2f3e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\leetbook\哈希表">
+      <UniqueIdentifier>{4df26b67-a9bc-4cd5-b749-8f742c20877f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\c++templates学习">
+      <UniqueIdentifier>{4ded94bd-96e1-4ff7-84a2-862f3d773a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\多线程">
+      <UniqueIdentifier>{d863814f-dfe0-48ea-8fd3-f7c4d2f895ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\网络学习">
+      <UniqueIdentifier>{8a264958-603c-43bf-98b2-e47cc6e09935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\c++新语法学习">
+      <UniqueIdentifier>{7727e28e-bf8b-4ecc-8f78-58038e4a6538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\面试">
+      <UniqueIdentifier>{a0b7d9eb-1f99-413d-9706-f8063ca4a182}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="01vector容器.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="02string容器.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="03deque容器.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04queue容器.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="05stack容器.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06list容器.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
     <ClCompile Include="0719.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="const修饰成员函数.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="this指针.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="成员函数做友元.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="成员属性和成员函数分开存储.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="纯虚函数和抽象类.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="对象的初始化和清理.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="多态基本概念.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="封装.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="父类子类同名成员处理方式.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="构造函数调用规则.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="函数调用运算符重载.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="函数占位符和重载.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="核心之内存区和引用.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="继承.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="继承同名静态成员处理方式.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="继承中构造和析构的顺序.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="静态成员变量.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="静态成员函数.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="拷贝构造函数调用时机.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="空指针访问成员函数.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="菱形继承.cpp">
+      <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="模板.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
     </ClCompile>
-    <ClCompile Include="vector容器.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="深拷贝浅拷贝问题.cpp">
+      <Filter>资源文件</Filter>
     </ClCompile>
-    <ClCompile Include="string容器.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="文件操作简介.cpp">
+      <Filter>资源文件</Filter>
     </ClCompile>
+    <ClCompile Include="虚析构和纯虚析构.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="友元.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="运算符重载.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="运算符重载测试.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="explicit用法.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="智能指针和内存管理.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="c语言char数组测试.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="还是我大哥牛逼.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="array容器使用.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stl_transform.cpp">
+      <Filter>资源文件\stl算法</Filter>
+    </ClCompile>
+    <ClCompile Include="冒号作用.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="命名空间测试.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="左值右值move.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="完美转发.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="malloctest.cpp">
+      <Filter>资源文件\C语言语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="回调函数测试.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="boost_test.cpp">
+      <Filter>资源文件\boost学习</Filter>
+    </ClCompile>
+    <ClCompile Include="单例模式.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="bind_function.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="c++文件读写.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="C数组初始化.cpp">
+      <Filter>资源文件\C语言语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="stdpair.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="使用哈希集.cpp">
+      <Filter>资源文件\leetbook\哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="哈希映射用法.cpp">
+      <Filter>资源文件\leetbook\哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="static普通用法.cpp">
+      <Filter>资源文件\C语言语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="double型取余测试.cpp">
+      <Filter>资源文件\C语言语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="const不同位置的差异.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="第一部分基础.cpp">
+      <Filter>资源文件\c++templates学习</Filter>
+    </ClCompile>
+    <ClCompile Include="附录B重载解析.cpp">
+      <Filter>资源文件\c++templates学习</Filter>
+    </ClCompile>
+    <ClCompile Include="创建线程.cpp">
+      <Filter>资源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="共享锁.cpp">
+      <Filter>资源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="信号量实现生产者消费者模型.cpp">
+      <Filter>资源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="字节序api.cpp">
+      <Filter>资源文件\网络学习</Filter>
+    </ClCompile>
+    <ClCompile Include="C结构体.c">
+      <Filter>资源文件\C语言语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="c++结构体.cpp">
+      <Filter>资源文件\C语言语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="C++IO流操作.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set系列容器.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3-1类模板stack实现.cpp">
+      <Filter>资源文件\c++templates学习</Filter>
+    </ClCompile>
+    <ClCompile Include="共享锁互斥管理版.cpp">
+      <Filter>资源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="条件变量实现生产者消费者模型.cpp">
+      <Filter>资源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="c线程池改.cpp">
+      <Filter>资源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="位运算技巧.cpp">
+      <Filter>资源文件\C语言语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="lower_bound.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="accumulate.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="STL堆排序测试.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="优先级队列测试.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="sort测试.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="二元信号量.cpp">
+      <Filter>资源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="共享锁2.cpp">
+      <Filter>资源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="手写智能指针.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="腾讯325面试题.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="assert测试.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="线程池简单.cpp">
+      <Filter>资源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="stdpair测试.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="红黑树容器.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="手写string.cpp">
+      <Filter>资源文件\面试</Filter>
+    </ClCompile>
+    <ClCompile Include="c++20信号量复习.cpp">
+      <Filter>资源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="bitset测试.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="指针测试.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="线程池.cpp">
+      <Filter>资源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="using测试.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="各种cast类型转换.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+    <ClCompile Include="递增运算符重载.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="迭代器失效总结.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="必须使用初始化列表初始化的情况.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enum使用方法测试.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="内存对齐和类的大小.cpp">
+      <Filter>资源文件\c++新语法学习</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wjxHeaders.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="thr_pool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
